@@ -1,0 +1,124 @@
+
+Copy code
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aerospace Company</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style>
+        .jumbotron {
+            background-image: url('https://www.jpl.nasa.gov/images/spaceplace/missions/voyager1.jpg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-shadow: 2px 2px 4px #000000;
+        }
+        .container-fluid {
+            padding: 60px 50px;
+        }
+        .bg-light {
+            background-color: rgba(255, 255, 255, 0.75) !important;
+        }
+        .feature-box {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .feature-box .card {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            min-height: 350px;
+        }
+        .feature-box .card img {
+            object-fit: cover;
+            height: 150px;
+            width: 100%;
+        }
+        .feature-box .card .card-body {
+            flex: 1;
+        }
+        .btn-outline-primary {
+            color: #007bff;
+            border-color: #007bff;
+        }
+        .btn-outline-primary:hover {
+            color: #fff;
+            background-color: #007bff;
+            border-color: #007bff;
+        }
+    </style>
+</head>
+<body>
+
+<div class="jumbotron">
+    <div class="container-fluid">
+        <h1 class="display-4">Welcome to Aerospace Company</h1>
+        <p class="lead">Our company is specialized in the research and development of cutting-edge aerospace technologies.</p>
+        <hr class="my-4">
+        <p>Learn more about our services and innovative products.</p>
+        <p class="lead">
+            <a class="btn btn-primary btn-lg" href="#" role="button">Contact Us</a>
+        </p>
+    </div>
+</div>
+
+<div class="container-fluid bg-light">
+    <div class="row">
+        <div class="col-md-4">
+            <h2>About Us</h2>
+            <p>We are a global leader in aerospace technologies. With our team of highly skilled professionals, we continuously push the boundaries of space exploration and technology advancements.</p>
+            <p><a class="btn btn-outline-primary" href="#" role="button">Learn more &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+            <h2>Our Services</h2>
+            <p>Our company offers a comprehensive range of services in aerospace technology, including:</p>
+            <ul>
+                <li>Aerospace propulsion systems</li>
+                <li>Satellite technology</li>
+                <li>Advanced aerodynamics</li>
+            </ul>
+            <p><a class="btn btn-outline-primary" href="#" role="button">Learn more &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+            <h2>Contact Us</h2>
+            <p>Get in touch with our team of experts and discuss your requirements in aerospace technology. We are here to help and guide you every step of the way.</p>
+            <p><a class="btn btn-outline-primary" href="#" role="button">Contact Us &raquo;</a></p>
+        </div>
+    </div>
+
+    <div class="row mt-5">
+        <h2>Featured Products</h2>
+        <div class="feature-box">
+            <div class="card">
+                <img src="C:\Users\ujwal\OneDrive\Pictures\Saved Pictures aero.jpeg" alt="Mars 2020 Rover">
+                <div class="card-body">
+                    <h5 class="card-title">Mars 2020 Rover</h5>
+                    <p class="card-text">Our latest rover model, equipped with advanced technology to explore the Red Planet.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://www.jpl.nasa.gov/images/cassini/20090206/pia06782-th.jpg" alt="Cassini-Huygens">
+                <div class="card-body">
+                    <h5 class="card-title">Cassini-Huygens</h5>
+                    <p class="card-text">This historic mission marked the first exploration of Saturn's moons by a spacecraft.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://www.nasa.gov/sites/default/files/thumbnails/image/20_space_station_spacecraft.jpg" alt="Space Station">
+                <div class="card-body">
+                    <h5 class="card-title">Space Station</h5>
+                    <p class="card-text">Our flagship product, the state-of-the-art space station built for long-term human habitation.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
